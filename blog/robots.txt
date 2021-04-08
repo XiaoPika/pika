@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /about/
+Allow: /essays/
+Allow: /医学/
+Allow: /技术/
+Allow: /日记/
+Allow: /思考/
+Allow: /%E6%80%9D%E8%80%83/
+Allow: /%E6%8A%80%E6%9C%AF/
+Allow: /%E6%97%A5%E8%AE%B0/
+Allow: /%E5%8C%BB%E5%AD%A/
+Disallow: /vendors/
+Disallow: /css/
+Disallow: /donate/
+Disallow: /js/
+Disallow: /assets/
+Disallow: /fonts/
+Disallow: /hiden/
+
+
+Sitemap: https://blog.drpika.com/baidusitemap.xml

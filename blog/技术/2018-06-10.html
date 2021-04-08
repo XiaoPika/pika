@@ -1,0 +1,380 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="小屁卡的随笔，三甲医院影像科的弱鸡医师一枚，博客以日常和倒腾为主，偶尔会发表政治观点和医疗专业文章。"><title>科学上网经验分享之 SS/SSR 篇 - Dr.Pika's Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//blog.drpika.com/cdn/normalize.min.css"><link rel="stylesheet" type="text/css" href="//blog.drpika.com/cdn/pure-min.css"><link rel="stylesheet" type="text/css" href="//blog.drpika.com/cdn/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//blog.drpika.com/cdn/jquery.min.js"></script><link rel="icon" mask sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = 'https://hm.baidu.com/hm.js?' + '50683c62fecfaadccd214a9b6b943f31';
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">科学上网经验分享之 SS/SSR 篇</h1><a id="logo" href="/.">Dr.Pika's Blog</a><p class="description">不务正业の医生小屁卡的随笔</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 博客</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="https://www.drpika.com" target="_blank" rel="external nofollow noopener noreferrer"><i class="fa fa-desktop"> 首页</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">科学上网经验分享之 SS/SSR 篇</h1><div class="post-meta">2018-06-10 00:11<span> - </span><span class="category"><a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%91%E9%87%8D%E6%8F%90%E9%86%92%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">郑重提醒：</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#SS-SSR-%E7%9A%84%E5%8E%86%E5%8F%B2"><span class="toc-number"></span> <span class="toc-text">SS&#x2F;SSR 的历史</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%99%8E%E5%A4%B4%E8%9B%87%E5%B0%BE%E7%9A%84%E6%AD%A3%E6%96%87"><span class="toc-number"></span> <span class="toc-text">虎头蛇尾的正文</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SS-SSR-%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">SS&#x2F;SSR 简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SS-SSR-%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%89%80%E5%BF%85%E9%9C%80%E7%9A%84%E2%80%9C%E8%B4%A6%E5%8F%B7%E2%80%9D"><span class="toc-number">2.</span> <span class="toc-text">SS&#x2F;SSR 客户端科学上网所必需的“账号”</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8D%E8%A6%81%E5%8E%9F%E5%88%99"><span class="toc-number">2.1.</span> <span class="toc-text">重要原则</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%AF%E6%8C%81-SS-SSR-%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%85%A8%E5%B9%B3%E5%8F%B0%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%83%A8%E5%88%86%E5%88%97%E4%B8%BE"><span class="toc-number">3.</span> <span class="toc-text">支持 SS&#x2F;SSR 协议的全平台客户端部分列举</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#iOS-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%88%E5%9B%BD%E5%8C%BA%EF%BC%89%EF%BC%9A"><span class="toc-number">3.1.</span> <span class="toc-text">iOS 客户端（国区）：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#iOS-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%88%E9%9D%9E%E5%9B%BD%E5%8C%BA%EF%BC%89%EF%BC%9A"><span class="toc-number">3.2.</span> <span class="toc-text">iOS 客户端（非国区）：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Mac-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A"><span class="toc-number">3.3.</span> <span class="toc-text">Mac 客户端：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Win-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A"><span class="toc-number">3.4.</span> <span class="toc-text">Win 客户端：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Android-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A"><span class="toc-number">3.5.</span> <span class="toc-text">Android 客户端：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Linux-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A"><span class="toc-number">3.6.</span> <span class="toc-text">Linux 客户端：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#V2ray-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A"><span class="toc-number">3.7.</span> <span class="toc-text">V2ray 客户端：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%84%E7%B1%BB%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%8E%A8%E8%8D%90"><span class="toc-number">4.</span> <span class="toc-text">各类客户端的个人推荐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B-SS-SSR-%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="toc-number">5.</span> <span class="toc-text">初级教程 SS&#x2F;SSR 的配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89-SS-SSR-%E7%9A%84%E5%8A%A0%E5%AF%86%E3%80%81%E5%8D%8F%E8%AE%AE%E4%B8%8E%E6%B7%B7%E6%B7%86"><span class="toc-number">6.</span> <span class="toc-text">进阶教程（一） SS&#x2F;SSR 的加密、协议与混淆</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89-%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA-SS-%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-number">7.</span> <span class="toc-text">进阶教程（二） 自己搭建 SS 服务器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B-To-Be-Continued"><span class="toc-number">8.</span> <span class="toc-text">进阶教程 To Be Continued</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%B8%A3%E8%B0%A2"><span class="toc-number"></span> <span class="toc-text">鸣谢</span></a></li></div></div><div class="post-content"><p>　　</p>
+<h3 id="郑重提醒："><a href="#郑重提醒：" class="headerlink" title="郑重提醒："></a>郑重提醒：</h3><p>　　<strong>作为本屁卡的读者，我认为在阅读以下内容前，您需要首先阅读并认可<a href="https://blog.drpika.com/hiden/About-Chinese-Network.html">普通中国公民“科学上网”的行为准则</a>。</strong></p>
+<p>　　　　</p>
+<h2 id="SS-SSR-的历史"><a href="#SS-SSR-的历史" class="headerlink" title="SS/SSR 的历史"></a>SS/SSR 的历史</h2><p>　　很久之前，有一位叫做 Clowwindy 的用户在 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.v2ex.com/">V2EX</a> 发帖分享自己写的一种加密传输协议（一种基于 Socks5 代理方式的网络数据加密传输包，<a target="_blank" rel="external nofollow noopener noreferrer" href="https://vc2tea.com/whats-shadowsocks/">具体原理见 vc2tea 的博客</a>），并表示自用了一年多，欢迎大家一起参加到开源项目里来。</p>
+<p><img src="https://cdn.drpika.com/blog/2018-06-10/0.png" alt="Clowwindy在V2EX上发表的帖子(已被和谐)"></p>
+<p>　　后来，由于这个协议非常高效，并使用 json 作为配置文件，配置起来非常方便，而且支持开创性的网络分流技术（PAC：配置文件中的网站走代理通道，之外的全部走直连通道，相较于以前所有的流量只能走代理通道，不需要代理的网站上网速度也会受到影响），极大地提升了科学上网的体验，所以迅速赢得了很多用户，甚至随后在 V2EX 上有了专属的讨论节点。随后 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-windows">开源在 Github</a>，由多名核心贡献者一同完善，取名为 Shadowsocks，简称 SS。由于开源社区的活力满载与极具竞争力的用户体验，Shadowsocks 迅速被移植到各种平台，如 Win、IOS、Linux，甚至可配置在路由器或智能电视上，并有了各种语言包，用户也急剧上升，进而有了专门经营 Shadowsocks 服务的商家，甚至发展出配套的 Shadowsocks 商家销售终端服务程序如大名鼎鼎的 ss-panel 以及其的各种魔改版及 mod 变种。</p>
+<p><img src="https://cdn.drpika.com/blog/2018-06-10/1.jpg" alt="开源项目使用英文维护是全球共识，开发者和贡献者99%都是货真价实的国人"></p>
+<p>　　一切都很美好，然而燃烧军团的远征的故事告诉我们，美好的事情都不会长久。直到这件事的发生：<br>　　<br><img src="https://cdn.drpika.com/blog/2018-06-10/2.jpg" alt="Clowwindy 称“被网安请喝茶”"></p>
+<br>
+　　当晚，Clowwindy 关闭了他在 Github 管理的所有开源代码仓库的 Issues、 WIKI 和帮助信息，描述全部改成了Something happened，并开启了自己 Twitter账号的隐私保护（除先前关注者外任何人均无法查看），简单道别后即挥别衣袖，只于翻墙界留下些许遗迹供人回忆。
+>时有人叹道：“世界闻名的两堵墙，一堵已经推倒了，另一堵居然一年比一年还要高。在这个神奇的国度，事情总是如此之神奇。大量的 Shadowsocks 用户甚至不知道作者是谁，而作者本人却要为这些人付出极大的代价，这就是鲁迅笔下的无名英雄。”
+
+<hr>
+<p>　　SSR（全称：ShadowsocksR，昵称：酸酸乳）是 SS 的修改版，也算是增强版，是 breakwa11 在 SS 的基础上做了些功能的增加和修改，此项目生于不义，死的伟大；当然这里无意深究其项目早期的各种违反开源精神的黑历史，</p>
+<p><img src="https://cdn.drpika.com/blog/2018-06-10/3.jpg" alt="由 breakwa11 创建的 SSR 项目介绍页"></p>
+<p><br>　　只是在此简单引用一下维基百科上关于 SSR 的介绍：</p>
+<blockquote>
+<p>ShadowsocksR 是 breakwa11 发起的 Shadowsocks 分支，在 Shadowsocks 的基础上增加了一些数据混淆方式，称修复了部分安全问题并可以提高 QoS 优先级。后来贡献者 Librehat 也为 Shadowsocks 补上了一些此类特性，甚至增加了类似 Tor 的可插拔传输层功能。ShadowsocksR 开始时曾有过违反 GPL、发放二进制时不发放源码的争议(并受到了 Clowwindy 的抨击)，不过后来 ShadowsocksR 项目由 breakwa11 转为了与 Shadowsocks 相同的 GPL、Apache 许可证、MIT 许可证等多重自由软件许可协议。</p>
+<p>2017年7月19日，ShadowsocksR 作者 breakwa11 在 Telegram 频道 [ShadowsocksR news] 里转发了深圳市启用 SS 协议检测并被大量用户转发，引发恐慌。7月24日，breakwa11 发布了闭源的 SS 被动检测程序，引发争议。 2017年7月27日，breakwa11 遭到自称 “ESU.TV” 的不明身份人士人身攻击，对方宣称如果不停止开发并阻止用户讨论此事件将发布更多包含个人隐私的资料，随后 breakwa11 表示遭到对方人肉搜索并公开个人资料的是无关人士，为了防止对方继续伤害无关人士将删除 GitHub 上的所有代码、解散相关交流群组，停止 ShadowsocksR 项目。</p>
+</blockquote>
+<p>得益于 Clowwindy 最初开源 SS 和 breakwa11 最后遵守开源协议公开了 SSR 源码的决定，大量的 fork 使得 SS/SSR 依然在更新之中，从 GitHub 现有结果来看，各个平台（甚至是路由器）的 SS/SSR 仍然不断的在更新，每一滴微小的力量都仍然推动着项目的前进。</p>
+<blockquote>
+<p>【题外话：一般情况下个人隐私被人肉侵犯尚不足以构成严重威胁，但在如此特殊的项目（有多家政府单位包括高校甚至专门针对 SS/SSR 协议成立流量特征分析的研究团队并已有成果发表）与特殊的时间段公布主要贡献者的个人信息，则是“它们想要我死”—— breakwa11 发表于 Twitter 上的原话】</p>
+</blockquote>
+<p>　　<strong>本屁卡在经历了翻墙界 2012 - 2017 这五年多事之秋后，总结了两点感受：</strong><br>　　1. 就我国目前网民平均素质来看，给予科学上网一定的门槛是有必要的。<br>　　2. 对于有能力跨过这道门槛的人来说，真正的挑战不是翻过长城防火墙，而是越过 Clowwidy 口中的那堵“心墙”。</p>
+<p>　　废话完毕。
+　　</p>
+<h2 id="虎头蛇尾的正文"><a href="#虎头蛇尾的正文" class="headerlink" title="虎头蛇尾的正文"></a>虎头蛇尾的正文</h2><h3 id="SS-SSR-简介"><a href="#SS-SSR-简介" class="headerlink" title="SS/SSR 简介"></a>SS/SSR 简介</h3><p>来自 Telegram 频道 [ShadowsocksR news] 的一条消息，截止2018年6月统计样本中各科学上网方式所占比例如下（百分比为上界）：</p>
+<table>
+<thead>
+<tr>
+<th align="center">项目名称</th>
+<th align="center">所占比例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Shadowsocks</td>
+<td align="center">63.2%</td>
+</tr>
+<tr>
+<td align="center">ShadowsocksR</td>
+<td align="center">37.1%</td>
+</tr>
+<tr>
+<td align="center">蓝灯(Lantern)</td>
+<td align="center">23%</td>
+</tr>
+<tr>
+<td align="center">VPN</td>
+<td align="center">17%</td>
+</tr>
+<tr>
+<td align="center">赛风</td>
+<td align="center">14.7%</td>
+</tr>
+<tr>
+<td align="center">GAE</td>
+<td align="center">12.8%</td>
+</tr>
+<tr>
+<td align="center">Hosts</td>
+<td align="center">10.6%</td>
+</tr>
+<tr>
+<td align="center">自由门</td>
+<td align="center">8.1%</td>
+</tr>
+<tr>
+<td align="center">VPN Gate</td>
+<td align="center">6.2%</td>
+</tr>
+<tr>
+<td align="center">V2Ray</td>
+<td align="center">5.6%</td>
+</tr>
+</tbody></table>
+<p><strong>区别：</strong>VPN 类项目工具也是一种点对点传输方式，VPN 默认是全局的（也有少数是可以分流的），开启后所有 App/软件 都会走代理，而且 VPN 的特征值太明显，理论上来说 GFW 干扰 VPN 通道是非常容易的。而 SS/SSR 的客户端在 13 年经过开源社区的数次迭代后早已支持 PAC 功能，PAC 是一种智能代理智能分流技术，根据规则自动判断，只有匹配到被墙了的地址才会走代理（自己也可以设置代理域名和IP），不需要代理的直连以节省服务器流量并提高访问速度，这样 SS/SSR 客户端可以部署在路由器上或于电脑上开机启动。</p>
+<blockquote>
+<p>相比传统的 VPN (IKE,IPSec,PPTP…)，Shadowsocks 协议具有更好的灵活性和隐蔽性，且搭建相对简单，因此可以拥有相对传统 VPN 更快的速度和更高的稳定性；另对比 V2Ray 这种科学上网的集合体，Shadowsocks 在服务端更加轻量，单一协议完善程度更高；在移动端有更丰富的客户端选择，兼容性和灵活性更优。（此段摘自：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://medium.com/@unbiniliumm/95187ef07ced">@unbiniliumm/95187ef07ced</a>）</p>
+</blockquote>
+<p>　　由上所述，SS/SSR 的综合用户体验勿需置疑，并且由于是立场可控的国人开发并发布源码至开源社区的，其安全性与危险性(无论是对使用者还是审查者而言)均优于可能接受过具有美国或其他“双标自由主义国家”政府官方性的基金会支持的项目，如由某轮子开发的“自由门”。<br>　　<br>　　由于开源，目前市面常见繁多种类的 SS/SSR 客户端，但是<strong>仅仅有 SS/SSR 客户端还不能翻墙</strong>，还得需要在 SS/SSR 客户端中添加正常可用的 json 信息（俗称 <strong>SS/SSR 账号</strong>），账号可以自己买境外 VPS 服务器搭建，也可以买别人搭建好的，也有人搭建了免费共享出来的。网上卖账号的商家俗称<strong>飞机场</strong>/梯子铺，数量极大（不过由于维权极难，骗一笔就跑路的也很多），但都不是官方提供，SS/SSR 本身只是一种加密流量的工具，并不提供加密流量的服务器。</p>
+<h3 id="SS-SSR-客户端科学上网所必需的“账号”"><a href="#SS-SSR-客户端科学上网所必需的“账号”" class="headerlink" title="SS/SSR 客户端科学上网所必需的“账号”"></a>SS/SSR 客户端科学上网所必需的“账号”</h3><p>　　这里本来有几个坚挺了很久的免费账号分享网站，但是最近已经挂了/跑路了/被墙了；无一幸免，所以就把推荐的网站撤下来了，且再次印证并强调了<strong>免费的才是最贵的</strong>这一真理。</p>
+<p>　　推荐付费服务背离本文初衷，且易使本站遭至“自阉者”的举报或 GFW 的额外关注，因此<u><strong>不在本文公开那些值得推荐的飞机场的邀请码及链接，有意人可于本站找到多种联系本屁卡的私聊渠道</strong></u>。</p>
+<h4 id="重要原则"><a href="#重要原则" class="headerlink" title="重要原则"></a>重要原则</h4><p>　　<strong>使用 SS/SSR 科学上网的原则：</strong>世界加钱可及；加钱省心，省钱闹心。</p>
+<p>　　由于 SS/SSR 科学上网所必须依赖的境外 VPS 有不菲的成本（目前主流个人使用的 VPS 以 Vultr 的 1核 512MB 机型为多，月付 $2.5 美刀，而飞机场租用的动辄 1000MB 带宽起步甚至达到 G 口的高配机房 VPS 的年付价格多不低于 1000元 RMB），因此免费分享出的服务并不会有太好的体验，而付费的服务通常有较好的客服响应与使用稳定性，免费服务基本不要奢望有可咨询的客服服务了。<br><img src="https://cdn.drpika.com/blog/2018-06-10/4.jpg" alt="加钱省心是业界共识"></p>
+<h3 id="支持-SS-SSR-协议的全平台客户端部分列举"><a href="#支持-SS-SSR-协议的全平台客户端部分列举" class="headerlink" title="支持 SS/SSR 协议的全平台客户端部分列举"></a>支持 SS/SSR 协议的全平台客户端部分列举</h3><p>　　部分客户端项目网址限于客观情况可能无法打开，包括但不限于因特殊原因无法访问的 Google Play、APP Store(US) 以及其它被干扰的第三方项目主页。本小节内容大部分引用自聪聪的博客。</p>
+<h4 id="iOS-客户端（国区）："><a href="#iOS-客户端（国区）：" class="headerlink" title="iOS 客户端（国区）："></a>iOS 客户端（国区）：</h4><p>　　2017年7月底，中国区 App Store 多款 VPN 相关应用在无任何说明与通知的情况下，突然集体被下架，与正常下架流程不同的是，过去苹果官方下架的应用一般可以在用户的已购项目中仍然可以下载，这是对已经购买了该应用的用户权益的保障，而这次的下架直接封杀了国行 App Store 所有渠道的下载，性质显然不同于以往，苹果给出的回应是：</p>
+<blockquote>
+<p>我们已经收到要求（法律依据：工信部2017年1月发布的文件《关于清理规范互联网网络接入服务市场的通知》），在中国移除一些不符合规范的 VPN App。这些 App 在其他市场的运营则不受影响。</p>
+</blockquote>
+<p>以下项目截止发文时全区仍可下载，但由于国区审查要求不排除以下列举项目下架之可能，若有失效链接可于文末评论反馈。（Vmess为V2ray专用协议）</p>
+<ul>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://apps.apple.com/cn/app/outline-app/id1356177741">Outline</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://testflight.apple.com/join/742YC03J">NetShuttle</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://testflight.apple.com/join/IdFRwmNy">Kitsunebi</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://testflight.apple.com/join/23LA2tmX">Loon</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/id1234881211">BananaNet</a> ¥3.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/a-big-t-iv/id1342485820">A.BIG.T IV</a> ¥68.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://testflight.apple.com/join/3i6uBkB4">Pharos Pro</a> TestFlight</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/id1260141606">Detour</a> ¥3.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/superrocket-ssr/id1441365594">‎SuperRocket</a> ¥3.00</p>
+<h4 id="iOS-客户端（非国区）："><a href="#iOS-客户端（非国区）：" class="headerlink" title="iOS 客户端（非国区）："></a>iOS 客户端（非国区）：</h4><p>（仅国区下架，其他区可下载）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://apps.apple.com/us/app/id1442620678">Surge 4</a> 免费 + 内购 ￥49.99≈¥348.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/surge-enterprise/id1433867616">Surge Enterprise</a> 免费</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://apps.apple.com/us/app/quantumult/id1252015438">Quantumult</a> （圈） $4.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://apps.apple.com/us/app/quantumult/id1252015438">Quantumult-X</a> （圈X） $4.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/shadowrocket-for-shadowsocks/id932747118">Shadowrocket</a> （小火箭） $2.99<br><em>以上为 IOS 系统最为推荐的三款支持SS/SSR/Vmess协议的代理工具</em></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073">Kitsunebi</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/pepi/id1283082051">Pepi</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1162704202">Potatso 2</a> $2.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/ranger-networktool/id1330474376">Ranger NetworkTool</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911">Wingy</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/firstwingy/id1316416848">FirstWingy</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/surfing-advanced-proxy/id1051326718">A.BIG.T</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/loon/id1373567447">Loon</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/shadowpocket/id1354988493">ShadowPocket</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/anyflow-a-super-cool-network-tool/id1176894911">AnyFlow</a> $4.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/shadowfish/id1220680757">Shadowfish</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/shadowtunnel/id869194885">ShadowTunnel</a> $2.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1197935918">Speedflow</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/alice-network-proxy-utility/id1135320992">Alice</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1253899156">Leap</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1218852656">影纤</a> $8.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/icproxy/id1000467304">iCProxy</a> $1.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/shadowproxy-ss-proxy/id1377752871">ShadowProxy</a> $0.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/outline-app/id1356177741">Outline</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1239860606">Potatso Lite</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1265578116">XNode</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/mume-vpn/id1144787928">Mume VPN</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/netshuttle-shadowsocksr-tool/id982708939">NetShuttle</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/id1245170216">Oriole</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/brook-brook-shadowsocks-vpn-proxy/id1216002642">Brook</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/fugu-2/id1215255916">Fugu2</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/us/app/bedrock/id1362340186">Bedrock</a> Free</p>
+<h4 id="Mac-客户端："><a href="#Mac-客户端：" class="headerlink" title="Mac 客户端："></a>Mac 客户端：</h4></li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="http://nssurge.com/">Surge for Mac</a> $49.99/$69.99/$99.99</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/yichengchen/clashX/releases">ClashX</a> （SS/Snell/Vmess）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/WhoJave/clashX/releases">ClashXR</a> （SS/SSR/Vmess）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-iOS/releases">ShadowsocksX</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/ShadowsocksX-NG/releases">ShadowsocksX-NG</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/qinyuhang/ShadowsocksX-NG-R/releases">ShadowsocksX-NG-R</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/a-big-t/id1114040100">A.BIG.T</a> ¥30.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/shadowtunnel-shadowsocks-shadowsocksr-client/id1187938179">ShadowTunnel</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/langyanduan/Reborn/releases">Reborn</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.dmg">Outline</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/erguotou520/electron-ssr">electron-ssr</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/sipt/shuttle">Shuttle</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/shadowsocks-browser/id1207191724">shadowsocks Browser!</a> ¥18.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/ssrconnectpro/id1376924741">SsrConnectPro</a> ¥3.00</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/huacnlee/flora-kit">Flora</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/zhuhaow/SpechtLite/releases">SpechtLite</a> Free</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.plutox.top/">Buff</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://itunes.apple.com/cn/app/id1249677933">夜莺</a> Free + 内购</p>
+</li>
+</ul>
+<h4 id="Win-客户端："><a href="#Win-客户端：" class="headerlink" title="Win 客户端："></a>Win 客户端：</h4><ul>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-windows/releases">Shadowsocks</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-windows/releases/tag/2.3.1">Shadowsocks 2.3.1</a>（XP 系统可用）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash for Windows</a>（图形化界面，不支持SSR协议）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/WhoJave/clash/releases">ClashR</a>（支持SSR）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases">ShadowsocksR</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksrr/shadowsocksr-csharp/releases">ShadowsocksRR</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/SoDa-GitHub/SSRR-Windows/releases">SSRR</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/SoDa-GitHub/SSD-Windows/releases">ShadowsocksD</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/sipt/shuttle">Shuttle</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Dreamacro/clash/releases">Clash</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Fndroid/clash_for_windows_pkg">Clash for Windows</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.exe">Outline</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/erguotou520/electron-ssr">electron-ssr</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/huacnlee/flora-kit">flora</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://sourceforge.net/projects/sscap">SScap</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.sockscap64.com/sstap">SSTap</a>（广泛用于游戏加速/代理，官网若打不开可从<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/FQrabbit/SSTap-Rule">Github上下载程序包+游戏代理规则</a>）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.sockscap64.com/sockscap-64-free-download">SocksCap</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/simple-obfs/releases">simple-obfs</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/kcptun/releases">kcptun</a></p>
+<h4 id="Android-客户端："><a href="#Android-客户端：" class="headerlink" title="Android 客户端："></a>Android 客户端：</h4></li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-android/releases">Shadowsocks 影梭 Github release版</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.github.shadowsocks">Shadowsocks 影梭 Google Play版</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksr-backup/shadowsocksr-android/releases">ShadowsocksR</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/ccg2018/ClashA/releases">Clash For Android</a>（不支持SSR，SS/Snell/Vmess）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/WhoJave/ClashA/releases">ClashAR</a>（支持SSR，SS/SSR/Snell/Vmess）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">ShadowsocksRR</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://play.google.com/store/apps/details?id=org.outline.android.client">Outline</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://manual.getsurfboard.com/cn/introduction">Surfboard</a>（Surfboard 支持导入 Surge 配置）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://play.google.com/store/apps/details?id=co.netpatch.firewall">NetPatch</a></p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.tunnelworkshop.postern">Postern</a>（Postern 支持导入 Surge 配置）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.github.dawndiy.bifrostv">BifrostV</a>（Vmess）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/simple-obfs-android/releases">simple-obfs-android</a>（SS的obfs混淆插件）</p>
+</li>
+<li><p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/kcptun-android/releases">kcptun-android</a></p>
+</li>
+</ul>
+<h4 id="Linux-客户端："><a href="#Linux-客户端：" class="headerlink" title="Linux 客户端："></a>Linux 客户端：</h4><ul>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Dreamacro/clash/releases">Clash</a>（SS/Snell/Vmess）</li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/shadowsocks-qt5">Shadowsocks-qt5</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/ssrbackup/shadowsocksr">ShadowsocksR</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Dreamacro/clash/releases">Clash</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.AppImage">Outline</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/avege/avege">Avege</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/huacnlee/flora-kit">flora</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/erguotou520/electron-ssr">electron-ssr</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/sipt/shuttle">Shuttle</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocks/kcptun/releases">kcptun</a></li>
+</ul>
+<h4 id="V2ray-客户端："><a href="#V2ray-客户端：" class="headerlink" title="V2ray 客户端："></a>V2ray 客户端：</h4><p>众所周知 SS、SSR 的项目创始人均离开了项目，虽然有多个团体接手了开发（如最出名的为<a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksrr/shadowsocksr-csharp">SSRR</a>），但目前前景尚不明朗，不过已经停止开发了很久的 SSR 目前仍未被 GFW 制裁。<br>Project V (V2ray) 定位为一个提供加密网络的代理核心平台，任何开发者都可基于此核心制作第三方客户端，V2ray 作为拥有更高安全性的半开源项目有成为继 SS/SSR 之后的下一代主流翻墙软件的趋势，目前 V2 从服务端已经兼容 SS/SSR 协议，只要机场做了适配即可使用（找本屁卡推荐机场时如果有使用V2的需求请记得提）。</p>
+<p>V2ray 官网 (需代理访问)：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.v2ray.com/">https://www.v2ray.com</a> ，客户端全平台支持。</p>
+<p>Project V (V2ray) 指南：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://toutyrater.github.io/">https://toutyrater.github.io</a>。</p>
+<ul>
+<li><p>IOS</p>
+<ul>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://apps.apple.com/us/app/id1445270056">i2Ray</a> 非国区可下载 $3.99</li>
+</ul>
+</li>
+<li><p>Windows</p>
+<ul>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/eycorsican/Mellow/releases">Mellow</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/2dust/v2rayN/releases">v2rayN</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Cenmrev/V2RayW/releases">V2RayW</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Shinlor/V2RayS/releases">V2RayS</a></li>
+</ul>
+</li>
+<li><p>MacOS</p>
+<ul>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/eycorsican/Mellow/releases">Mellow</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Cenmrev/V2RayX/releases">V2RayX</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/yanue/V2rayU/releases">V2rayU</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/gssdromen/V2RayC">V2RayC</a></li>
+</ul>
+</li>
+<li><p>Andriod</p>
+<ul>
+<li><a href="https://blog.drpika.com/%E6%8A%80%E6%9C%AF/2018-06-10.html#Android-%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%9A">上面介绍过的只要支持 Vmess 协议的安卓客户端均可</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/2dust/v2rayNG/releases">v2rayNG</a></li>
+</ul>
+</li>
+<li><p>Linux</p>
+<ul>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/eycorsican/Mellow/releases">Mellow</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Dreamacro/clash/releases">Clash</a>（SS/Snell/Vmess）</li>
+</ul>
+</li>
+</ul>
+<h3 id="各类客户端的个人推荐"><a href="#各类客户端的个人推荐" class="headerlink" title="各类客户端的个人推荐"></a>各类客户端的个人推荐</h3><ul>
+<li><p>iOS 端：有条件的尽量选择非国区应用：在安全/易用/便捷的基础上，Quantumult和Shadowrocket是比较推荐的，当然如果你很有钱，可以使用Surge以获得优越感(大误)。<br>注意：PP助手(包括同类型的各种助手)或越狱商店里的应用来源不明，有“<a target="_blank" rel="external nofollow noopener noreferrer" href="https://baike.baidu.com/item/%E8%9C%9C%E7%BD%90%E6%8A%80%E6%9C%AF">GFW的蜜罐</a>”之风险，因此不作推荐。</p>
+</li>
+<li><p>Andriod 端：Github 上官方 Repository 发布的 release 版即可；或使用本屁卡推荐的各大机场小白教程里的 SS/SSR 客户端。</p>
+</li>
+<li><p>Windows 端：Github 上官方 Repository 发布的 release 版即可；或使用本屁卡推荐的各大机场小白教程里的 SS/SSR 客户端。</p>
+</li>
+</ul>
+<p>其余平台未使用过，不予置评。以上均为个人意见，请自行斟酌。</p>
+<h3 id="初级教程-SS-SSR-的配置"><a href="#初级教程-SS-SSR-的配置" class="headerlink" title="初级教程 SS/SSR 的配置"></a>初级教程 SS/SSR 的配置</h3><p>如果仍然有小白不明白 SS/SSR 和 SS/SSR 账号之间的区别，请直接拉到页面最底部，评论里有通俗易懂的解释。</p>
+<p>那么，现在有了 SS/SSR 账号以后，我们就需要把账号内的节点信息导入到 SS/SSR 中；由于大部分机场都是几十条节点线路，一个一个导入就显得很麻烦，不过大多数机场都会使用 ss-pannel-v3-mod 程序来支持订阅服务器的神奇操作，可一键全部导入。</p>
+<p>而同时，ss-pannel 的机场服务程序又很贴心的准备了全平台的小白教程，相信只要有小学文化都能照章办事100%设定好。（实在是有什么初级基础问题搞不定，比如按照教程设置了却无法访问外网等问题，可以查看本文章最后一段话来联系我）</p>
+<p><img src="https://cdn.drpika.com/blog/2018-06-10/5.jpg" alt="“傻瓜”版教程"><br><br><br><img src="https://cdn.drpika.com/blog/2018-06-10/6.jpg" alt="“弱智”版教程"></p>
+<h3 id="进阶教程（一）-SS-SSR-的加密、协议与混淆"><a href="#进阶教程（一）-SS-SSR-的加密、协议与混淆" class="headerlink" title="进阶教程（一） SS/SSR 的加密、协议与混淆"></a>进阶教程（一） SS/SSR 的加密、协议与混淆</h3><p>注：小白及轻度使用者不需要了解以下内容，使用机场默认的配置即可。</p>
+<p>这一段的进阶教程其实我拖了很久一直不想写，主要原因就是懒，更主要的原因就是自己也不是特别了解技术上的问题，直到最近一段时间，不知道这篇文章的链接被哪位大佬发到微博上了，来咨询（其实大部分都是来伸手索要账号的…）我问题的人突然变多，于是我觉得也有必要更新一下文章内容尤其是 App Store 中支持 SS/SSR 的 APP 的有效列表。</p>
+<p>我学习了半天，结果发现官方文档里对早就用稍微有点基础的人都能看得懂的文字写明白了区别，那么我就偷个懒，直接贴链接了：</p>
+<ul>
+<li>协议混淆哪家强，请参考破娃酱的：ShadowsocksR 协议插件文档（此为备份性fork文档，原文由于破娃酱删库已经消失）<blockquote>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md">https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="进阶教程（二）-自己搭建-SS-服务器"><a href="#进阶教程（二）-自己搭建-SS-服务器" class="headerlink" title="进阶教程（二） 自己搭建 SS 服务器"></a>进阶教程（二） 自己搭建 SS 服务器</h3><p>自己搭建个人用的小机场（就像有一架自己的专机一样）听起来真是一件炫酷的事情呢，但是搭建自己的 SS/SSR 服务有好多好多坑要踩；毕竟取决于自己的空闲时间、折腾能力、资金能力和学习、交流、购买渠道、速率优化方式等，你包养的专机也可以是：一战时的双杠木制飞机、二手米格或是湾流G650、波音747…</p>
+<blockquote>
+<p>毒藥：有时候接触这些（机场）站长越多，其实也越觉得他们挺辛苦的，除了极个别除外。又要应付几百上千号客户，今天这个不满意了，明天那个有要求了；又要应付墙，感觉每天都在换机器换IP，估计长时间出去玩的时间都比较少，太占用精力了，大家互相理解下吧。</p>
+</blockquote>
+<p>建议不是有很多空闲功夫尤其是非计算机相关专业的人就别来跳坑了，当然如果你偏要来我也不拦着，就是别问我这方面的各种问题，我对这类技术的理解还处在五六年前的水平，那时连 ss-pannel 和锐速这种程序都还没影呢。</p>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/xiaoming2028/FreeNet/wiki">FreeNet - VPS搭建SS/SSR、V2ray、Brook、WireGuard教程</a></p>
+<p><strong>使用谷歌搜索关键字：搭建、SS/SSR、VPS、自建、教程、锐速、优化 等，可以搜到大量教程。</strong></p>
+<ul>
+<li><strong>性价比</strong><br>目前针对个人使用，比较推荐BandwagonHost(搬瓦工)和Vultr机房的服务器，并且这两个国外机房均支持支付宝付款！<br>移动用户推荐使用Vultr亚洲日本或新加坡机房；电信、联通的用户推荐搬瓦工的CN2电信/联通直连线路；具体请谷歌搜索组合关键字：搬瓦工、搭建、SS、SSR、教程等。</li>
+</ul>
+<h3 id="进阶教程-To-Be-Continued"><a href="#进阶教程-To-Be-Continued" class="headerlink" title="进阶教程 To Be Continued"></a>进阶教程 To Be Continued</h3><p>今天累了，下次有空再写（也许不再会写了）~<br>介绍一位大神的博客：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://lolico.moe/tutorial/shadowsocksr.html">https://lolico.moe/tutorial/shadowsocksr.html</a>，更高阶的问题，就去问他吧~</p>
+<h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><p>本文写作过程中采信或引用了多方资讯，在此感谢 Clowwindy 、breakwa11 、其他对于 SS/SSR 协议有过贡献的、CongCong、Thomas、毒藥、神代綺凜以及广大公益机场主、良心机场主等具有自由、开源思想的优秀中国公民及海外侨胞们。<br><br><br>最后，有什么问题，善用搜索（以上文章很多引用内容均为搜索得到的），仍有一些自己无法获知答案的问题，欢迎阅读<a href="../hiden/How-To-Ask-The-Questions.html">《提问的智慧》</a>后在下方评论区发表，或<a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.drpika.com/#contact">点击这里</a>与我取得联系~<br><br></p>
+</div><div class="tags"></div><div class="post-nav"><a class="pre" href="/%E6%8A%80%E6%9C%AF/2018-07-03.html">拥有一个自己的博客有多难？</a><a class="next" href="/%E6%80%9D%E8%80%83/2018-04-27.html">由忆引思：“田佳良事件”与“思想入党”</a></div><div id="tcomment"></div><script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script><script>twikoo.init({
+  envId: 'comments-3ggnun0n42f648df',
+  el: '#tcomment',
+  region: 'ap-shanghai',
+  path: 'decodeURI(window.location.pathname)'
+    })</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%8C%BB%E5%AD%A6/">医学</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%80%9D%E8%80%83/">思考</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E8%AE%B0/">日记</a><span class="category-list-count">11</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友链</i></div><ul></ul><a href="https://www.iots.vip" title="Alliot's Blog (全栈达人)" target="_blank">Alliot's Blog (全栈达人)</a><ul></ul><a href="https://www.cunzher.cn" title="Cunzher's Blog丨以医德观人生" target="_blank">Cunzher's Blog丨以医德观人生</a><ul></ul><a href="https://9th-panzerarmee.com/" title="天才⑨の世界 (我家⑨酱·真后浪)" target="_blank" rel="external nofollow noopener noreferrer">天才⑨の世界 (我家⑨酱·真后浪)</a><ul></ul><a href="https://www.giuem.com" title="Blog@GIUEM丨大佬GIUEM的日常" target="_blank">Blog@GIUEM丨大佬GIUEM的日常</a><ul></ul><a href="https://www.haomwei.com/" title="屠城丨屠夫9441禁猎区" target="_blank">屠城丨屠夫9441禁猎区</a><ul></ul><a href="https://szhshp.org/" title="szhshp 的第三边境研究所" target="_blank">szhshp 的第三边境研究所</a><ul></ul><a href="https://www.llululu.com/" title="陆碌路の小窝" target="_blank">陆碌路の小窝</a><ul></ul><a href="https://ncnccn.cn/" title="Null · 一间生活" target="_blank">Null · 一间生活</a><ul></ul><a href="https://lastone.art/" title="一稿計畫 | Last ONE" target="_blank">一稿計畫 | Last ONE</a><ul></ul><a href="http://www.lancet.me/" title="陈黎章医生 | Lancet" target="_blank" rel="external nofollow noopener noreferrer">陈黎章医生 | Lancet</a><ul></ul><a href="https://blog.drpika.com/about/#关于友链" title="☞ 与小屁卡交朋友" target="_blank">☞ 与小屁卡交朋友</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer"> <a href="/." rel="nofollow">Dr.Pika's Blog © 2021</a>&nbsp;&nbsp;&nbsp;All Rights Reserved.</div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
